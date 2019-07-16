@@ -21,8 +21,12 @@
 
 .inside-cards{
     margin: 5.263%;
-    min-height: 100px;
+    /* min-height: auto; */
     border: 1px solid white;
+}
+
+.parent-span {
+    float: left;
 }
 
 .span-new {
@@ -48,16 +52,74 @@
 
 .span-heart {
     float: right;
-    color: aqua;
+    color: white;
 }
 
 .image-thumbnail {
-    /* width: 208px;
-    height: 208px;
-    padding: 41px 50px 167px 46px; */
-    
+    width: 100%;
+    height: auto;
 }
 
-.parent-span {
-    float: left;
+.product-info {
+    margin: 5.263%;
+    position: relative;
+    bottom: 0;
+}
+
+.product-name-1 {
+    color: #2D323D;
+    text-align: left;
+    font-size: 16px;
+    margin: 30px 0px 0px 0px;
+    word-wrap: break-word;
+    border: 1px solid white;
+}
+
+.product-name-2 {
+    color: #2D323D;
+    text-align: left;
+    font-size: 16px;
+    margin: 0px;
+    word-wrap: break-word;
+    border: 1px solid white;
+}
+
+.product-review {
+
+}
+
+.rating {
+
+}
+
+.no-of-ratings {
+    text-align: left;
+    color: #999999;
+    font-size: 16px;
+}
+
+.product-price {
+    border: 1px solid white;
+}
+
+.product-price-bold {
+    color: #33465D;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid white;
+}
+
+.product-price-striked {
+    color: #999999;
+    font-size: 16px;
+    text-align: left;
+    border: 1px solid white;
+}
+
+.product-discount {
+    color: #33465D;
+    font-size: 16px;
+    text-align: left;
+    border: 1px solid white;
 }
